@@ -26,8 +26,19 @@ def return_output(ifconfig):
         tx_errors_line = tx_errors_match.group() if tx_errors_match else None
 
         # Print the extracted information for the current instance
-        list.append(f"Network configuration: {network_name}\n"
-                       f"RX errors: {rx_errors_line}\n"
-                       f"TX errors: {tx_errors_line}\n")
+        list.append(f"{network_name}\n"
+                       f"{rx_errors_line}\n"
+                       f"{tx_errors_line}\n")
+        if rx_errors_line is not None:
+
+            rx_error_line_split = rx_errors_line.split('  ')
+            tx_error_line_split = tx_errors_line.split('  ')
+            rx_error_counts = rx_error_line_split[0]
+            tx_error_counts = tx_error_line_split[0]
+
+            rx_error_number = rx_error_counts[-1]
+            tx_error_number = tx_error_counts[-1]
+
+
     joined_list = "\n".join(list)
-    return(joined_list)
+    return list,network_name,rx_error_number,tx_error_number

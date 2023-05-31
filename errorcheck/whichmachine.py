@@ -9,4 +9,4 @@ def name_of_machine(host):
     client.connect(host, port=22, username='martin.kirilov')
     stdin, stdout, stderr = client.exec_command('hostname')
 
-    print(stdout.read().decode('utf-8'))
+    return(stdout.read().decode('utf-8'))
