@@ -29,4 +29,5 @@ def return_output(ifconfig):
         list.append(f"Network configuration: {network_name}\n"
                        f"RX errors: {rx_errors_line}\n"
                        f"TX errors: {tx_errors_line}\n")
-    return(list)
+    joined_list = "\n".join(list)
+    return(joined_list)
