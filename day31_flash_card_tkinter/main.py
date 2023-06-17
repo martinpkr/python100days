@@ -4,11 +4,15 @@ import random
 import time
 BACKGROUND_COLOR = "#B1DDC6"
 #get data from file with pandas
-data = pandas.read_csv('./data/french_words.csv')
-df = pandas.DataFrame(data)
-dict = df.to_dict(orient="records")
-current_card = {}
+try:
+    data = pandas.read_csv('./words_to_learn.csv')
+except FileNotFoundError:
+    data = pandas.read_csv('./data/french_words.csv')
+    dict = data.to_dict(orient="records")
+else:
+    dict = data.to_dict(orient="records")
 
+current_card = {}
 #make functions for clicking right and wrong choice buttons
 
 
@@ -17,14 +21,20 @@ def flip_card():
     window.after_cancel(flip_timer)
     current_card = random.choice(dict)
     canvas.itemconfig(canvas_image,image=canvas_img)
-    canvas.itemconfig(canvas_word_text,text=current_card['French'])
-    canvas.itemconfig(canvas_title_text,text='French')
+    canvas.itemconfig(canvas_word_text,text=current_card['French'],fill='black')
+    canvas.itemconfig(canvas_title_text,text='French',fill='black')
     flip_timer = window.after(3000, func=next_card)
 
-def next_card():\
+def right_button():
+    flip_card()
+    dict.remove(current_card)
+    rest_of_data = pandas.DataFrame.from_records(dict)
+    rest_of_data.to_csv('words_to_learn.csv')
 
-    canvas.itemconfig(canvas_title_text,text='English',fill='white')
-    canvas.itemconfig(canvas_word_text,text=current_card['English'] ,fill='white')
+def next_card():
+
+    canvas.itemconfig(canvas_title_text,text='English', fill='white')
+    canvas.itemconfig(canvas_word_text,text=current_card['English'], fill='white')
     canvas.itemconfig(canvas_image,image=canvas_back_img)
 
 window = Tk()
@@ -49,7 +59,7 @@ x_button = Button(image=x_button_img,command=flip_card)
 x_button.grid(column=0,row=1)
 
 right_button_img = PhotoImage(file='./images/right.png')
-right_button = Button(image=right_button_img,command=flip_card)
+right_button = Button(image=right_button_img,command=right_button)
 right_button.grid(column=1,row=1)
 
 flip_card()
