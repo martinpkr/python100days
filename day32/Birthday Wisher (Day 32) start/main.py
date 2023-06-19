@@ -26,6 +26,8 @@ with open('quotes.txt','r') as data:
         if date.weekday() in WORK_DAYS:
             connection.starttls()
             connection.login(user=my_email,password=password)
-            connection.sendmail(from_addr=my_email,to_addrs='mkirilov12@yahoo.com',msg=random.choice(lines))
-            connection.sendmail(from_addr=my_email,to_addrs='Nicolegnaumova@gmail.com',msg=random.choice(lines))
+            connection.sendmail(from_addr=my_email,to_addrs='mkirilov12@yahoo.com',
+                                msg=f'Subject:Motivation For The Day \n\n{random.choice(lines)}'e);
+            connection.sendmail(from_addr=my_email,to_addrs='Nicolegnaumova@gmail.com',
+                                msg=f'Subject:Motivation For The Day \n\n{random.choice(lines)}')
             connection.close()
