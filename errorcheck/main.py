@@ -28,6 +28,7 @@ def extract_data(host):
             output_decoded = stdout.read().decode('utf8')
             result = return_output(output_decoded)
 
+
             for instance in result[0]:
                 network_match = network_pattern.search(instance)
                 network_name = network_match.group(1) if network_match else None
@@ -51,10 +52,11 @@ def extract_data(host):
                     tx_error_number = tx_error_counts[-1]
 
                 machine_data = {
-                    'name': name_of_machine(host),
-                    'network_name': network_name,
-                    'rx_error': rx_error_number,
-                    'tx_error': tx_error_number
+                    name_of_machine(host): {
+                        'network_name': network_name,
+                        'rx_error': rx_error_number,
+                        'tx_error': tx_error_number
+                    }
                 }
                 print(machine_data)
                 data.append(machine_data)

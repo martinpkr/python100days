@@ -1,422 +1,499 @@
 [
     {
-        "name": "lx8\n",
-        "network_name": "enp1s0f0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "enp1s0f0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "enp1s0f1",
-        "rx_error": "1",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "enp1s0f1",
+            "rx_error": "1",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "pomelo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "pomelo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "pomelo_access",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "pomelo_access",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "veth573dd018",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "veth573dd018",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "vetha7090ec2",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "vetha7090ec2",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "vethc43bb5e4",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "vethc43bb5e4",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "vethe4efe6ee",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "vethe4efe6ee",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "vethe6582cf8",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "vethe6582cf8",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "vethee291e67",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "vethee291e67",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "vmbr0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "vmbr0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx8\n",
-        "network_name": "wg0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx8\n": {
+            "network_name": "wg0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "bond0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "bond0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "br0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "br0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "enp179s0f0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "enp179s0f0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "enp179s0f1",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "enp179s0f1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "veth38e9413c",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "veth38e9413c",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "vethb4d969dc",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "vethb4d969dc",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "vethc90e642e",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "vethc90e642e",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx9\n",
-        "network_name": "vethf9d62733",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx9\n": {
+            "network_name": "vethf9d62733",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "app6\n",
-        "network_name": "eth0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "app6\n": {
+            "network_name": "eth0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "app6\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "app6\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "bond0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "bond0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "br0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "br0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "enp179s0f0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "enp179s0f0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "enp179s0f1",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "enp179s0f1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "veth687223b1",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "veth687223b1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "veth6e34c5f6",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "veth6e34c5f6",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "veth7434cd1f",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "veth7434cd1f",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "veth744ecd4e",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "veth744ecd4e",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx10\n",
-        "network_name": "vethefbc0826",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx10\n": {
+            "network_name": "vethefbc0826",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "enp1s0f0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "enp1s0f0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "enp1s0f1",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "enp1s0f1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "enp1s0f0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "enp1s0f0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "pomelo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "pomelo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "pomelo_access",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "pomelo_access",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "test_noto_euw1",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "prod_noto_euw1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "uat",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "test_noto_euw1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "veth0c53c325",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "uat",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "veth325f9af5",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "veth0c53c325",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "veth64cca883",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "veth325f9af5",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "veth7c401fe6",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "veth64cca883",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "veth80432bde",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "veth7c401fe6",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "vethc4701cd5",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "veth80432bde",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "vethfb732154",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "vethc4701cd5",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "vmbr0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "vethfb732154",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "vmbr0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "vmbr0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx5-test\n",
-        "network_name": "wg0",
-        "rx_error": "6",
-        "tx_error": "7"
+        "lx5-test\n": {
+            "network_name": "vmbr0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "grafana\n",
-        "network_name": "eth0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx5-test\n": {
+            "network_name": "wg0",
+            "rx_error": "1",
+            "tx_error": "7"
+        }
     },
     {
-        "name": "grafana\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "grafana\n": {
+            "network_name": "eth0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "zabbix5\n",
-        "network_name": "eth0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "grafana\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "zabbix5\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "zabbix5\n": {
+            "network_name": "eth0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "bond0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "zabbix5\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "bond0.92",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "bond0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "bond0.3620",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "bond0.92",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "bond0.3620",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "bond0.3620",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "bond0.92",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "bond0.3620",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "enp1s0f0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "bond0.92",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "enp1s0f1",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "enp1s0f0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx12\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "enp1s0f1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx13\n",
-        "network_name": "bond0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx12\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx13\n",
-        "network_name": "bond0.92",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx13\n": {
+            "network_name": "bond0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx13\n",
-        "network_name": "bond0.3620",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx13\n": {
+            "network_name": "bond0.92",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx13\n",
-        "network_name": "enp1s0f0",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx13\n": {
+            "network_name": "bond0.3620",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx13\n",
-        "network_name": "enp1s0f1",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx13\n": {
+            "network_name": "enp1s0f0",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     },
     {
-        "name": "lx13\n",
-        "network_name": "lo",
-        "rx_error": "0",
-        "tx_error": "0"
+        "lx13\n": {
+            "network_name": "enp1s0f1",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
+    },
+    {
+        "lx13\n": {
+            "network_name": "lo",
+            "rx_error": "0",
+            "tx_error": "0"
+        }
     }
 ]
