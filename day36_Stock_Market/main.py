@@ -1,3 +1,5 @@
+import os
+
 import requests
 import datetime as dt
 
@@ -10,6 +12,7 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
     ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 stock_market_API_KEY = 'RMPO4M8YXN7QSJR2'
+stock = os.environ.get("MARKET_KEY")
 #TODO 1. - Get yesterday's closing stock price. Hint: You can perform list comprehensions on Python dictionaries. e.g. [new_value for (key, value) in dictionary.items()]
 parameters = {
     'function': 'TIME_SERIES_DAILY_ADJUSTED',
@@ -53,7 +56,7 @@ if yesterday_close > day_before_yesterday_close:
     increase = float(yesterday_close) - float(day_before_yesterday_close)
     diff_in_percentige = find_percentige(yesterday_close,increase)
 else:
-    increase = day_before_yesterday_close - yesterday_close
+    increase = float(day_before_yesterday_close) - float(yesterday_close)
     diff_in_percentige = find_percentige(day_before_yesterday_close, increase)
 
 #TODO 5. - If TODO4 percentage is greater than 5 then print("Get News").
@@ -84,7 +87,7 @@ articles = news_data['articles'][0:2]
 #TODO 8. - Create a new list of the first 3 article's headline and description using list comprehension.
 
 info_dump = [f'{article["title"]}\n{article["content"]}' for article in articles]
-
+print(info_dump)
 #TODO 9. - Send each article as a separate message via Twilio. 
 
 
