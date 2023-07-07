@@ -29,12 +29,14 @@ for line in dict:
 
             with open(f'letter_templates/{random.choice(possible_files)}') as wish:
                 text_for_birthay = wish.readlines()
+                string = ''.join(text_for_birthay)
+                replaced = string.replace('[NAME]',name)
                 connection.starttls()
                 connection.login(user=my_email, password=password)
                 # 4. Send the letter generated in step 3 to that person's email address.
 
                 connection.sendmail(from_addr=my_email, to_addrs=email,
-                                    msg=f'Subject:Happy Birthday {name} <3 \n\n{random.choice(text_for_birthay)}');
+                                    msg=f'Subject:Happy Birthday {name} <3 \n\n{replaced}');
                 connection.close()
 
 
